@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head><title>css card</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="compatible" content="IE=edge">
+
+<style>
+
+.card{
+      width:300px;
+	  margin:10px;
+	  box-sizing:border-box;
+	  box-shadow:5px 4px 4px black;
+	  
+	  
+	  
+	  }
+.img-style{
+          width:100%;
+		  }
+
+.card-body{
+           padding:10px;
+		   background-color:#761f8c;
+		   }
+
+
+/*----------------------
+.card-titleকে এভাবেও  excess
+করা যায় ----> (.card-body .card-title)
+কারন এটা .card-bodyএঢ় মধ্যে আছে
+------------------------*/			   
+.card-title{
+            font-size:25px;
+            text-align:center;
+			color:white;
+            }
+
+
+/*----------------------
+.card-descকে এভাবেও  excess
+করা যায় ----> (.card-body .card-desc)
+কারন এটা .card-bodyএঢ় মধ্যে আছে
+------------------------*/			
+.card-desc{        
+           text-align:justify;
+		   
+		   color:white;
+		   line-height:25px;
+		   word-spacing:5px;
+		  text-transform:capitalize;
+		  text-indent:10px;
+		 
+			}
+ p::first-letter{
+	              font-size:30px;
+				  color:red;
+                 }  
+.card:hover{
+          box-shadow:8px 5px 4px white;
+         }
+
+
+.card-containers{
+                background-color:blue;
+				display:flex;
+				padding:10px;
+				justify-content:center;
+				align-items:center;
+				flex-wrap:wrap;
+				}
+
+
+
+
+
+
+
+
+		 
+</style>
+</head>
+<body>
+<div class="card-containers">
+
+<div class="card">
+<img class="img-style" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/268642026_105426238677188_6810594104423149699_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkHgGRT3W1UqPx4dlQ4nMR1gX8R9QX-5HWBfxH1Bf7kb3eev8QTJIODw1bb0QazTrIIuHyBkXF91ulJ_zwL91s&_nc_ohc=BOvG8rKiO_0AX_bS7oH&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AfATS7QfXbufppPFjn_t-DB6df_DMV22brV6OX6Wz_RKng&oe=648C2B7D">
+
+
+<div class="card-body">
+
+<div class="card-title">
+Python Programming
+</div>
+
+
+<div class="card-desc">
+<p>
+
+Vero at dolore diam labore ea. Clita dolor takimata sanctus elitr labore, clita sadipscing ea diam labore. Lorem eos stet ea est sanctus gubergren elitr magna. Sit sed consetetur magna dolor at. No eirmod takimata sanctus magna. Et sanctus invidunt at et. Amet stet diam no eos ut erat labore dolor, kasd no ea stet dolore takimata ea sed sanctus, no at stet sit magna et accusam no sanctus, et gubergren ut elitr sadipscing elitr et ut. At vero vero at dolor dolore diam kasd. Gubergren dolor sanctus erat takimata sit ut sed, sit duo diam diam lorem ipsum eos,.
+</p>
+</div>
+
+</div>
+
+</div><br/><br/>
+
+<!--card-2 start-->
+<div class="card">
+<img class="img-style" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/268642026_105426238677188_6810594104423149699_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkHgGRT3W1UqPx4dlQ4nMR1gX8R9QX-5HWBfxH1Bf7kb3eev8QTJIODw1bb0QazTrIIuHyBkXF91ulJ_zwL91s&_nc_ohc=BOvG8rKiO_0AX_bS7oH&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AfATS7QfXbufppPFjn_t-DB6df_DMV22brV6OX6Wz_RKng&oe=648C2B7D">
+
+
+<div class="card-body">
+
+<div class="card-title">
+Python Programming
+</div>
+
+
+<div class="card-desc">
+<p>
+
+Vero at dolore diam labore ea. Clita dolor takimata sanctus elitr labore, clita sadipscing ea diam labore. Lorem eos stet ea est sanctus gubergren elitr magna. Sit sed consetetur magna dolor at. No eirmod takimata sanctus magna. Et sanctus invidunt at et. Amet stet diam no eos ut erat labore dolor, kasd no ea stet dolore takimata ea sed sanctus, no at stet sit magna et accusam no sanctus, et gubergren ut elitr sadipscing elitr et ut. At vero vero at dolor dolore diam kasd. Gubergren dolor sanctus erat takimata sit ut sed, sit duo diam diam lorem ipsum eos,.
+</p>
+</div>
+
+</div>
+
+</div>
+<!--card-2 end-->
+
+
+<!--card-3 start-->
+<div class="card">
+<img class="img-style" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/268642026_105426238677188_6810594104423149699_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkHgGRT3W1UqPx4dlQ4nMR1gX8R9QX-5HWBfxH1Bf7kb3eev8QTJIODw1bb0QazTrIIuHyBkXF91ulJ_zwL91s&_nc_ohc=BOvG8rKiO_0AX_bS7oH&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AfATS7QfXbufppPFjn_t-DB6df_DMV22brV6OX6Wz_RKng&oe=648C2B7D">
+
+
+<div class="card-body">
+
+<div class="card-title">
+Python Programming
+</div>
+
+
+<div class="card-desc">
+<p>
+
+Vero at dolore diam labore ea. Clita dolor takimata sanctus elitr labore, clita sadipscing ea diam labore. Lorem eos stet ea est sanctus gubergren elitr magna. Sit sed consetetur magna dolor at. No eirmod takimata sanctus magna. Et sanctus invidunt at et. Amet stet diam no eos ut erat labore dolor, kasd no ea stet dolore takimata ea sed sanctus, no at stet sit magna et accusam no sanctus, et gubergren ut elitr sadipscing elitr et ut. At vero vero at dolor dolore diam kasd. Gubergren dolor sanctus erat takimata sit ut sed, sit duo diam diam lorem ipsum eos,.
+</p>
+</div>
+
+</div>
+
+</div>
+<!--card-3 end-->
+
+</div>
+</body>
+</html>
